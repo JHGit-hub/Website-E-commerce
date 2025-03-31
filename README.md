@@ -3,15 +3,19 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> Copie d'un site internet de vente E-commerce à partir d'une maquette Figma. Utilisation du SCSS pour s'exercer et utiliser les bons noms de classe.
+## Name's Project
+Website E-commerce 
+> Copie d'un site internet de vente E-commerce à partir d'une maquette Figma. L'objecti de l'exercice est d'avoir les bonnes pratique des noms de class et de ranger le SCC en differente fichier en vue d'utiliser le SCSS
 
 ### ✨ [Demo](https://github.com/JHGit-hub/Website-E-commerce/actions/runs/14174671137/job/39706576200)
 
-## Install
+## Figma's model
+https://www.figma.com/design/rMcHPUUhypizPgfPEs7qpV/Retail-E-Commerce-Website-Design-(Community)-(Copy)?node-id=2-2&t=X7s1v65pLUJDrcrB-1
 
-```sh
-npm install
-```
+## technology used
+-HTML
+-CSS
+ 
 
 ## Author
 
@@ -24,4 +28,3 @@ npm install
 Give a ⭐️ if this project helped you!
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
