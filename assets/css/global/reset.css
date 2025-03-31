@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    width:100%;
+    position:relative;
+}
+
+.container{
+    width:80%;
+}
+
+.row{
+    width:100%;
+    margin:2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display:flex;
+    justify-content: center;
+}
+
+
+/*************** MEDIA QUERIES ***************/
+
+@media(min-width: 1024px){
+    .d-none{
+        display:none;
+    }
+}
+
+@media(max-width: 1024px){
+    .m-none{
+        display:none;
+    }
+}

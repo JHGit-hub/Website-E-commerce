@@ -1,0 +1,26 @@
+.title{
+    margin:2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+}
+
+
+.title p{
+    color:#616161;
+    text-align: center;
+}
+
+.subtitle{
+    width:38rem;
+    margin:2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    align-items: left;
+}
+
+.subtitle p{
+    color: #616161;
+}

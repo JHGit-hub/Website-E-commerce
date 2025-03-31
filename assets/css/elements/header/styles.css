@@ -1,0 +1,43 @@
+
+
+header{
+    display: flex;
+    justify-content:center;
+}
+
+
+.container{
+    width:80%;
+    margin:2rem 0;
+}
+
+.container-logo{
+    display: flex;
+    justify-content: center;
+}
+
+header .row{
+    margin:1rem 0;
+}
+
+.picto{
+    display:flex;
+    justify-content: space-between;
+    gap:1.5rem;
+}
+
+
+/********** MEDIA QUERIES **********/
+
+
+@media(max-width: 1024px){
+    .row{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;  
+    }
+    .container{
+        margin:1rem 0;
+    }
+}

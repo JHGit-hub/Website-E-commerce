@@ -1,0 +1,108 @@
+/******
+******* FONTS *******
+******/
+
+
+@font-face {
+    font-family: "proxima-bold";
+    src: url(proximanova-bold.otf);
+}
+
+@font-face {
+    font-family: "proxima-regular";
+    src: url(proximanova-regular.otf);
+}
+
+@font-face {
+    font-family: "proxima-semibold";
+    src: url(proximanova-semibold.otf);
+}
+
+@font-face {
+    font-family: "poppins-regular";
+    src: url(poppins-regular.ttf);
+}
+
+@font-face {
+    font-family: "poppins-semibold";
+    src: url(Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "abeezee";
+    src: url(ABeeZee-Regular.ttf);
+}
+
+
+/******* FONTS DESKTOP *******/
+
+
+h1{
+    font-family: "proxima-bold", sans-serif;
+    font-size: 3rem;
+    color:#9CA0A4;
+    line-height: 3rem;
+    text-transform: capitalize;
+}
+
+h2{
+    font-family: "proxima-bold", sans-serif;
+    font-size: 3rem;
+    color:#111010;
+    line-height: 3rem;
+    text-transform: capitalize;
+}
+
+h3{
+    font-family: "proxima-semibold", sans-serif;
+    font-size: 1.75rem;
+    color:#ffffff;
+    line-height: 1.75rem;
+}
+
+h4{
+    font-family:  "proxima-semibold",sans-serif;
+    font-size: 1.625rem;
+    color:#111010;
+    line-height: 1.625rem;
+}
+
+a{
+    font-family: "proxima-regular", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color:#0A0A0A;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+p{
+    font-family: "proxima-regular", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+span{
+    display: block;
+}
+
+
+/******* FONTS MOBIL *******/
+
+@media(max-width: 1024px){
+    h1{
+        font-size: 1.625rem;
+    }
+
+    h2{
+        font-size: 1.875rem;
+    }
+
+    h3{
+        font-size: 1.75rem;
+    }
+
+    p{
+        font-size: 1.25rem;
+    }
+}
